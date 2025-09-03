@@ -109,3 +109,34 @@
   width: 70%;
   height: auto;
 }
+
+.about__btn {
+  margin-top: 3rem;
+  color: #fff;
+}
+
+.information {
+  background: #27292c;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.information h2 {
+  font-family: "Reey";
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+.info__description {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+
+  color: #fff;
+}
+
+.info__description p {
+  margin: auto 7rem;
+  text-align: start;
+}
