@@ -104,6 +104,7 @@
   justify-items: center;
   gap: 3rem;
   font-family: "Open Sans";
+  margin-bottom: 3rem;
 }
 
 .plates img {
@@ -159,6 +160,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
+  font-family: "Open Sans";
 }
 
 .discounts__text {
