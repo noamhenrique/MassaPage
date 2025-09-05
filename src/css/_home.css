@@ -48,7 +48,7 @@
 .hero__text .btn {
   display: inline-block;
   background: #fff;
-  color: #333;
+  color: #343434;
   padding: 0.3rem 1.5rem;
   border-radius: 12px;
   text-decoration: none;
@@ -103,6 +103,7 @@
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   gap: 3rem;
+  font-family: "Open Sans";
 }
 
 .plates img {
@@ -132,6 +133,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
+  margin-bottom: 4rem;
 
   color: #fff;
 }
@@ -139,4 +141,35 @@
 .info__description p {
   margin: auto 7rem;
   text-align: start;
+  font-family: "Open Sans";
+}
+
+.information .btn {
+  background: #fff;
+  color: #343434;
+  padding: 0.7rem 2.5rem;
+  border-radius: 18px;
+}
+
+.information .btn:hover {
+  background: #f4d03f;
+}
+
+.discounts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
+.discounts__text {
+  margin: 10rem 10rem 10rem 0;
+}
+
+.discounts__text2 {
+  margin: 10rem 0 10rem 10rem;
+}
+
+.discounts__text p,
+.discounts__text2 p {
+  margin: 1rem 0 2rem 0;
 }
