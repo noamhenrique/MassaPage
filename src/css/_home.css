@@ -25,6 +25,7 @@
 .hero__text h1 {
   font-size: 4rem;
   font-family: "Reey";
+  font-weight: 400;
   margin-top: 5rem;
   margin-bottom: 1rem;
 }
@@ -87,6 +88,7 @@
 .about__content h2 {
   font-size: 3rem;
   font-family: "Reey";
+  font-weight: 400;
   margin-bottom: 1.5rem;
   color: #000;
 }
@@ -125,6 +127,7 @@
 
 .information h2 {
   font-family: "Reey";
+  font-weight: 400;
   font-size: 3rem;
   color: #fff;
   margin-bottom: 3rem;
@@ -174,4 +177,39 @@
 .discounts__text p,
 .discounts__text2 p {
   margin: 1rem 0 2rem 0;
+}
+
+.pizza {
+  position: relative;
+  background: url("../images/bg-header.webp") no-repeat center center/cover;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.folhas-left {
+  position: absolute;
+  height: 80%;
+  top: 30%;
+  left: 0;
+}
+
+.folhas-right {
+  position: absolute;
+  height: 130%;
+  bottom: 2%;
+  right: 0;
+}
+
+.pizza h2 {
+  font-family: "Reey";
+  font-weight: 400;
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+.pizza p {
+  padding-top: 2rem;
+  font-family: "Open Sans";
+  color: white;
 }
