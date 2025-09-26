@@ -182,21 +182,21 @@
 .pizza {
   position: relative;
   background: url("../images/bg-header.webp") no-repeat center center/cover;
-  padding: 5rem 2rem;
+  padding: 5rem 2rem 20rem 2rem;
   text-align: center;
 }
 
 .folhas-left {
   position: absolute;
-  height: 80%;
-  top: 30%;
+  height: 30%;
+  top: 10%;
   left: 0;
 }
 
 .folhas-right {
   position: absolute;
-  height: 130%;
-  bottom: 2%;
+  height: 40%;
+  bottom: 70%;
   right: 0;
 }
 
@@ -209,7 +209,39 @@
 }
 
 .pizza p {
-  padding-top: 2rem;
+  padding: 2rem 19rem;
   font-family: "Open Sans";
   color: white;
+}
+
+.pizza-image {
+  position: absolute;
+  height: 70%;
+}
+
+.line {
+  height: 5px;
+  width: 140px;
+  background: white;
+  position: relative;
+  left: 35rem;
+}
+
+.info__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 8rem 5rem;
+  gap: 5rem;
+}
+
+.info__container h2 {
+  font-family: "Reey";
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.info__container p {
+  font-family: "Open Sans";
 }
