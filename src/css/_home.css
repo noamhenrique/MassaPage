@@ -188,15 +188,15 @@
 
 .folhas-left {
   position: absolute;
-  height: 30%;
-  top: 10%;
+  height: 40%;
+  top: 30%;
   left: 0;
 }
 
 .folhas-right {
   position: absolute;
-  height: 40%;
-  bottom: 70%;
+  height: 60%;
+  bottom: 55%;
   right: 0;
 }
 
