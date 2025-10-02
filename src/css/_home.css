@@ -245,3 +245,85 @@
 .info__container p {
   font-family: "Open Sans";
 }
+
+.info__comment {
+  padding: 0 5rem;
+}
+
+.info__comment h2 {
+  font-family: "Open Sans";
+  font-weight: 600;
+  text-align: center;
+  margin: 0 15rem;
+  font-size: 1rem;
+}
+
+.info__comment h3 {
+  font-family: "Open Sans";
+  font-weight: 700;
+  text-align: center;
+  margin: 3rem 0;
+  font-size: 0.875rem;
+}
+
+.email {
+  position: relative;
+  padding: 5rem;
+  background: #27292c;
+  color: #fff;
+  text-align: center;
+}
+
+.email h1 {
+  margin: 1rem;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.email p {
+  margin: 2rem 22rem;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+.your__email input {
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  outline: none;
+  width: 18rem;
+  margin-left: 3rem;
+}
+
+.your__email button {
+  position: relative;
+  right: 3rem;
+  background: #54524f;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.your__email button:hover {
+  background: #f4d03f;
+}
+
+.folhas-email-right {
+  position: absolute;
+  height: 60%;
+  bottom: 50%;
+  right: 0;
+}
+
+.folhas-email-left {
+  position: absolute;
+  height: 60%;
+  top: 70%;
+  left: 0;
+}
